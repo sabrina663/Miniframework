@@ -1,0 +1,7 @@
+<h1>sobre Nos</h1>
+<hr>
+<?php
+    foreach ($this->view->dados as $key => $produto) {
+        echo $produto['titulo'] . "<br>" . $produto['descricao'] . '<hr>';
+    }
+?>
