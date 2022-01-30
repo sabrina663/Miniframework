@@ -8,11 +8,6 @@
                 'controller' => 'IndexController',
                 'action' => 'index'
             );
-            $routes['sobre_nos'] = array(
-                "route" => '/sobre_nos',
-                'controller' => 'IndexController',
-                'action' => 'SobreNos'
-            );
             $this->setRoutes($routes);
         }
         
